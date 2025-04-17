@@ -1,0 +1,9 @@
+---
+- name: Configure Azure VMs
+  hosts: all
+  tasks:
+    - name: Ensure NGINX is installed
+      apt:
+        name: nginx
+        state: present
+      become: yes
