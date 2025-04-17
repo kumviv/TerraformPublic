@@ -1,6 +1,5 @@
 name: Infra + Ansible + Trigger Azure Pipeline
 
-
 on:
   push:
     branches: [ main ]
