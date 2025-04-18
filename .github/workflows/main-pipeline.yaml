@@ -56,5 +56,5 @@ jobs:
           curl -X POST \
             -H "Authorization: Basic ${{ secrets.AZURE_DEVOPS_PAT_BASE64 }}" \
             -H "Content-Type: application/json" \
-            https://dev.azure.com/YOUR_ORG/YOUR_PROJECT/_apis/pipelines/YOUR_PIPELINE_ID/runs?api-version=7.1-preview.1 \
+            https://dev.azure.com/vivekazure2354/Terraform/_apis/pipelines/23/runs?api-version=7.1-preview.1 \
             -d '{"resources": { "repositories": { "self": { "refName": "refs/heads/main" }}}}'
